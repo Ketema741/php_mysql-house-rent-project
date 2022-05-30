@@ -1,0 +1,112 @@
+[{
+        "id": 1,
+        "company": "Betselot Tadele",
+        "logo": "./images/photosnap.svg",
+        "new": true,
+        "featured": false,
+        "postedAt": "1d ago",
+        "contract": "$257",
+        "location": "USA",
+        "address": ["+251 91 089 3000", "4513 E Adele st"]
+    },
+    {
+        "id": 2,
+        "company": "ketema Girma",
+        "logo": "./images/manage.svg",
+        "new": true,
+        "featured": false,
+        "postedAt": "1d ago",
+        "contract": "$500",
+        "location": "Brazil",
+        "address": ["+251 91 232 3811", "2651 Main Rd"]
+    },
+    {
+        "id": 3,
+        "company": "Amanda kim",
+        "logo": "./images/account.svg",
+        "new": true,
+        "featured": false,
+        "postedAt": "2d ago",
+        "contract": "$67",
+        "location": "california",
+        "address": ["(273)-266-6921", "7341 cherry st"]
+    },
+    {
+        "id": 4,
+        "company": "Alberto Porter",
+        "logo": "./images/myhome.svg",
+        "new": true,
+        "featured": false,
+        "postedAt": "5d ago",
+        "contract": "$177",
+        "location": "city",
+        "address": ["(531)-110-3268", "2651 Main Rd"]
+
+    },
+    {
+        "id": 5,
+        "company": "terry day",
+        "logo": "./images/loop-studios.svg",
+        "new": true,
+        "featured": false,
+        "postedAt": "1w ago",
+        "contract": "$32",
+        "location": "miami",
+        "address": ["+(237)-266-8638", "2235 rudder Rd"]
+    },
+    {
+        "id": 6,
+        "company": "sandra schmidit",
+        "logo": "./images/faceit.svg",
+        "new": true,
+        "featured": false,
+        "postedAt": "2w ago",
+        "contract": "$260 ",
+        "location": "UK ",
+        "address": ["(531)-110-3268", "2651 hickory creek"]
+    },
+    {
+        "id": 7,
+        "company": "courtney wattes",
+        "logo": "./images/shortly.svg",
+        "new": false,
+        "featured": true,
+        "postedAt": "2w ago",
+        "contract": "$0",
+        "location": "san francisco",
+        "address": ["add phone", "8078 Main Rd"]
+    },
+    {
+        "id": 8,
+        "company": "brandy stewart",
+        "logo": "./images/insure.svg",
+        "new": true,
+        "featured": false,
+        "postedAt": "2w ago",
+        "contract": "$77",
+        "location": "new york",
+        "address": ["(939)-722-4891", "2655 Main Rd"]
+    },
+    {
+        "id": 9,
+        "company": "Eyecam wattes",
+        "logo": "./images/eyecam-co.svg",
+        "new": true,
+        "featured": false,
+        "postedAt": "3w ago",
+        "contract": "$2.64",
+        "location": "Rome",
+        "address": ["(306)-829-8934", "4651 Park Rd"]
+    },
+    {
+        "id": 10,
+        "company": "susan Rivera",
+        "logo": "./images/the-air-filter-company.svg",
+        "new": false,
+        "featured": true,
+        "postedAt": "1mo ago",
+        "contract": "$0",
+        "location": "canada",
+        "address": ["add phone", "2651 Main Rd"]
+    }
+]

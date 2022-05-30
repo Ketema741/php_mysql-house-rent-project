@@ -1,0 +1,60 @@
+
+      html,body {
+        font-size: 62.5%;
+        font-family: 'Monserrat', sans-serif;
+        line-height: 1.7;
+      }
+      h1 {
+        font-weight: bold;
+      }
+      form,
+      .remove_home {
+        padding: 0 2rem;
+        margin: 1rem 0;
+        font-weight: 100;
+      }
+      .formBox {
+        display: flex;
+        flex-direction: row;
+        margin: 1rem;
+      }
+      .formBox label {
+        flex-basis: 20ch;
+        text-align: end;
+        padding-right: 2rem;
+        padding-inline-end: 2rem;
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: #000;
+      }
+
+      
+      .remove_home label{
+        font-size:2rem;
+      }
+      .formBox input,
+      .remove_home input{
+        flex-basis: auto;
+        font-size: 1.5rem;
+        font-weight: 100;
+        color: #000;
+        position: relative;
+        padding: .5rem 1rem;
+      }
+      .formBox button {
+        background-color: #4caf50;
+        border: none;
+        color: #fff;
+        padding: 1rem 2rem;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 100;
+        flex-basis: auto;
+        margin-left: 20ch;
+        margin-inline-start: 20ch;
+      }
+      legend {
+        margin: 0 4rem;
+        padding: 0 1rem;
+        color: #4caf50;
+      }

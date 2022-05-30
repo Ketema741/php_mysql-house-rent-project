@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "name": "Beautiful Familiy House",
+        "image": "house-1.jpeg",
+        "icons":[
+            "img/sprite.svg#icon-heart-full",
+            "img/sprite.svg#icon-map-pin",
+            "img/sprite.svg#icon-profile-male",
+            "img/sprite.svg#icon-expand",
+            "img/sprite.svg#icon-key"
+        ],
+        "location": "USA",
+        "rooms":5,
+        "area":325,
+        "price": 1200000
+
+    },
+
+    {
+        "id": 2,
+        "image": "house-2.jpeg",
+        "name": "Beautiful Familiy House",
+        "icons":[
+            "img/sprite.svg#icon-heart-full",
+            "img/sprite.svg#icon-map-pin",
+            "img/sprite.svg#icon-profile-male",
+            "img/sprite.svg#icon-expand",
+            "img/sprite.svg#icon-key"
+        ],
+        "location": "Canada",
+        "rooms":6,
+        "area":450,
+        "price": 275000
+
+    },
+
+    {
+        "id": 3,
+        "image": "house-3.jpeg",
+        "name": "Cozy Country House",
+        "icons":[
+            "img/sprite.svg#icon-heart-full",
+            "img/sprite.svg#icon-map-pin",
+            "img/sprite.svg#icon-profile-male",
+            "img/sprite.svg#icon-expand",
+            "img/sprite.svg#icon-key"
+        ],
+        "location": "UK",
+        "rooms":5,
+        "area":640,
+        "price": 2200000
+
+    },
+
+    {
+        "id": 4,
+        "image": "house-4.jpeg",
+        "name": "Large Rustical Villa",
+        "icons":[
+            "img/sprite.svg#icon-heart-full",
+            "img/sprite.svg#icon-map-pin",
+            "img/sprite.svg#icon-profile-male",
+            "img/sprite.svg#icon-expand",
+            "img/sprite.svg#icon-key"
+        ],
+        "location": "USA",
+        "rooms":5,
+        "area":325,
+        "price": 1200000
+
+    },
+    {
+        "id": 5,
+        "image": "house-5.jpeg",
+        "name": "Majestic Palace House",
+        "icons":[
+            "img/sprite.svg#icon-heart-full",
+            "img/sprite.svg#icon-map-pin",
+            "img/sprite.svg#icon-profile-male",
+            "img/sprite.svg#icon-expand",
+            "img/sprite.svg#icon-key"
+        ],
+        "location": "Germany",
+        "rooms":5,
+        "area":325,
+        "price": 1200000
+
+    },
+    {
+        "id": 6,
+        "image": "house-6.jpeg",
+        "name": "Majestic Palace House",
+        "icons":[
+            "img/sprite.svg#icon-heart-full",
+            "img/sprite.svg#icon-map-pin",
+            "img/sprite.svg#icon-profile-male",
+            "img/sprite.svg#icon-expand",
+            "img/sprite.svg#icon-key"
+        ],
+        "location": "Italy",
+        "rooms":3,
+        "area":325,
+        "price": 1200000
+
+    }
+]
