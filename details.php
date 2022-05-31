@@ -1,39 +1,7 @@
 <?php 
-	include('config/db_connect.php');
+    include('CRUD/readSingle.php');
 
-    if(isset($_POST['delete'])){
-
-		$id_to_delete = mysqli_real_escape_string($connected, $_POST['id_to_delete']);
-
-		$sql = "DELETE FROM houses WHERE id = $id_to_delete";
-
-		if(mysqli_query($connected, $sql)){
-			header('Location: admin.php');
-		} else {
-			echo 'query error: '. mysqli_error($connected);
-		}
-
-	}
-
-
-	// check GET request id param
-	if(isset($_GET['id'])){
-		
-		// escape sql chars
-		$id = mysqli_real_escape_string($connected, $_GET['id']);
-
-		// make sql
-		$sql = "SELECT * FROM houses WHERE id = $id";
-		// get the query result
-		$result = mysqli_query($connected, $sql);
-
-		// fetch result in array format
-		$house = mysqli_fetch_assoc($result);
-
-		mysqli_free_result($result);
-		mysqli_close($connected);
-        // print_r($house);
-	}
+   
 ?>
 
 <!DOCTYPE html>
@@ -48,6 +16,7 @@
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/admin.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
     <link rel="shortcut icon" type="image/png" href="img/favicon.png">
     
     <title>nexter &mdash; your home, your freedom</title>

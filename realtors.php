@@ -11,8 +11,8 @@
         <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i|Nunito:300,300i" rel="stylesheet">
         <link rel="stylesheet" href="css/nav.css">
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/lgin.css">
         <link rel="stylesheet" href="css/realtors.css">
+        <link rel="stylesheet" href="css/login.css">
         <link rel="shortcut icon" type="image/png" href="img/favicon.png">
         <script src="https://unpkg.com/scrollreveal"></script>
         <title>nexter &mdash; your home, your freedom</title>

@@ -8,6 +8,7 @@
         <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i|Nunito:300,300i" rel="stylesheet">
         <link rel="stylesheet" href="css/nav.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/login.css">
         <link rel="shortcut icon" type="image/png" href="img/favicon.png">
         <script src="https://unpkg.com/scrollreveal"></script>
         <title>nexter &mdash; your home, your freedom</title>
@@ -36,8 +37,6 @@
                     <div class="realtors">
                         <?php  include('templates/realtors.php');?>
                     </div>
-
-
                     <section class="features">
                         <div class="feature">
                             <svg class="feature__icon">
@@ -105,8 +104,6 @@
                     <section class="homes" id="home">
                     <?php  include('templates/houses.php');?>
                     </section>
-
-
                     <section class="gallery">
                         <figure class="gallery__item gallery__item--1 myimg"><img src="img/gal-1.jpeg" alt="Gallery image 1" class="gallery__img"></figure>
                         <figure class="gallery__item gallery__item--2"><img src="img/gal-2.jpeg" alt="Gallery image 2" class="gallery__img"></figure>

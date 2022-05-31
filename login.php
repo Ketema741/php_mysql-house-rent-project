@@ -8,7 +8,7 @@
         <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i|Nunito:300,300i" rel="stylesheet">
         <link rel="stylesheet" href="css/nav.css">
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/lgin.css">
+        <link rel="stylesheet" href="css/login.css">
         <link rel="shortcut icon" type="image/png" href="img/favicon.png">
         <script src="https://unpkg.com/scrollreveal"></script>
         <title>nexter &mdash; your home, your freedom</title>
@@ -38,7 +38,6 @@
                         <?php  include('templates/realtors.php');?>
                     </div>
 
-
                     <section class="features">
                         <div class="section-login">
                             <div class="row">
@@ -50,19 +49,14 @@
                                                     Signin
                                                 </h2>
                                             </div>
-
-                                           
-
                                             <div class="form__group">
                                                 <input type="email" class="form__input" placeholder="Email address" name="email" id="email" required>
                                                 <label for="email" class="form__label">Email address</label>
                                             </div>
-
                                             <div class="form__group">
                                                 <input type="password" class="form__input" placeholder="Password " name="Password" id="Password" required>
                                                 <label for="email" class="form__label">Password</label>
                                             </div>
-
                                             <div class="form__group u-margin-bottom-medium">
                                                 <div class="form__radio-group">
                                                     <input type="radio" class="form__radio-input" id="small" name="size">
@@ -71,7 +65,6 @@
                                                             Admin
                                                         </label>
                                                 </div>
-
                                                 <div class="form__radio-group">
                                                     <input type="radio" class="form__radio-input" id="large" name="size">
                                                     <label for="large" class="form__radio-label">
@@ -90,11 +83,6 @@
                             </div>
                         </div>
                     </section>
-
-                    
-
-                    
-
 
                     <section class="gallery">
                         <figure class="gallery__item gallery__item--1 myimg"><img src="img/gal-1.jpeg" alt="Gallery image 1" class="gallery__img"></figure>
