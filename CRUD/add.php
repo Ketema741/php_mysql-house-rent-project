@@ -1,5 +1,5 @@
 <?php 
-  	include('config/db_connect.php');
+  	include('../config/db_connect.php');
 
 	// escape sql chars
 	if(isset($_POST['add'])){

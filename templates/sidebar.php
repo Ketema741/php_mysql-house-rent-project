@@ -18,7 +18,7 @@
             </a>
         </li>
         <li class="sd-nav__item">
-            <a href="#" class="sd-nav__link">
+            <a href="about.php" class="sd-nav__link">
                 <svg class="sd-nav__icon">
                         <use xlink:href="img/sprite-2.svg#icon-map"></use>
                     </svg>
@@ -27,7 +27,7 @@
         </li>
 
         <li class="sd-nav__item">
-            <a href="admin.php" class="sd-nav__link">
+            <a href="login.php" class="sd-nav__link">
                 <svg class="sd-nav__icon">
                         <use xlink:href="img/sprite-2.svg#icon-map"></use>
                     </svg>

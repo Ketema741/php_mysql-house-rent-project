@@ -1,112 +1,92 @@
 [{
-        "id": 1,
-        "company": "Betselot Tadele",
-        "logo": "./images/photosnap.svg",
-        "new": true,
-        "featured": false,
-        "postedAt": "1d ago",
-        "contract": "$257",
-        "location": "USA",
-        "address": ["+251 91 089 3000", "4513 E Adele st"]
-    },
-    {
-        "id": 2,
-        "company": "ketema Girma",
-        "logo": "./images/manage.svg",
-        "new": true,
-        "featured": false,
-        "postedAt": "1d ago",
-        "contract": "$500",
-        "location": "Brazil",
-        "address": ["+251 91 232 3811", "2651 Main Rd"]
-    },
-    {
-        "id": 3,
-        "company": "Amanda kim",
-        "logo": "./images/account.svg",
-        "new": true,
-        "featured": false,
-        "postedAt": "2d ago",
-        "contract": "$67",
-        "location": "california",
-        "address": ["(273)-266-6921", "7341 cherry st"]
-    },
-    {
-        "id": 4,
-        "company": "Alberto Porter",
-        "logo": "./images/myhome.svg",
-        "new": true,
-        "featured": false,
-        "postedAt": "5d ago",
-        "contract": "$177",
-        "location": "city",
-        "address": ["(531)-110-3268", "2651 Main Rd"]
+    "id": 1,
+    "name": "Germia Tap",
+    "image": "img/realtor-1.jpeg",
 
-    },
-    {
-        "id": 5,
-        "company": "terry day",
-        "logo": "./images/loop-studios.svg",
-        "new": true,
-        "featured": false,
-        "postedAt": "1w ago",
-        "contract": "$32",
-        "location": "miami",
-        "address": ["+(237)-266-8638", "2235 rudder Rd"]
-    },
-    {
-        "id": 6,
-        "company": "sandra schmidit",
-        "logo": "./images/faceit.svg",
-        "new": true,
-        "featured": false,
-        "postedAt": "2w ago",
-        "contract": "$260 ",
-        "location": "UK ",
-        "address": ["(531)-110-3268", "2651 hickory creek"]
-    },
-    {
-        "id": 7,
-        "company": "courtney wattes",
-        "logo": "./images/shortly.svg",
-        "new": false,
-        "featured": true,
-        "postedAt": "2w ago",
-        "contract": "$0",
-        "location": "san francisco",
-        "address": ["add phone", "8078 Main Rd"]
-    },
-    {
-        "id": 8,
-        "company": "brandy stewart",
-        "logo": "./images/insure.svg",
-        "new": true,
-        "featured": false,
-        "postedAt": "2w ago",
-        "contract": "$77",
-        "location": "new york",
-        "address": ["(939)-722-4891", "2655 Main Rd"]
-    },
-    {
-        "id": 9,
-        "company": "Eyecam wattes",
-        "logo": "./images/eyecam-co.svg",
-        "new": true,
-        "featured": false,
-        "postedAt": "3w ago",
-        "contract": "$2.64",
-        "location": "Rome",
-        "address": ["(306)-829-8934", "4651 Park Rd"]
-    },
-    {
-        "id": 10,
-        "company": "susan Rivera",
-        "logo": "./images/the-air-filter-company.svg",
-        "new": false,
-        "featured": true,
-        "postedAt": "1mo ago",
-        "contract": "$0",
-        "location": "canada",
-        "address": ["add phone", "2651 Main Rd"]
-    }
-]
+    "active": "Online",
+    "house_sold": "346",
+    "location": "Gambela",
+    "email": "germia@gmail.com",
+    "phone": "+1 901 930"
+}, {
+    "id": 2,
+    "name": "Betselot T.",
+    "image": "img/realtor-1.jpeg",
+
+    "active": "1d ago",
+    "house_sold": "346",
+    "location": "Addis",
+    "email": "betsi@gmail.com",
+    "phone": "+1 901 930"
+}, {
+    "id": 3,
+    "name": "Tola G.",
+    "image": "img/realtor-1.jpeg",
+
+    "active": "2w ago",
+    "house_sold": "346",
+    "location": "Bishoftu",
+    "email": "tola@gmail.com",
+    "phone": "+1 901 930"
+}, {
+    "id": 4,
+    "name": "Hagos J.",
+    "image": "img/realtor-1.jpeg",
+
+    "active": "Online",
+    "house_sold": "346",
+    "location": "Mekele",
+    "phone": "+1 901 930",
+    "email": "hagos@gmail.com"
+
+}, {
+    "id": 5,
+    "name": "Anberbir B.",
+    "image": "img/realtor-1.jpeg",
+
+    "active": "3M ago",
+    "house_sold": "346",
+    "location": "Gonder",
+    "phone": "+1 901 930",
+    "email": "anberbir@gmail.com"
+}, {
+    "id": 6,
+    "name": "Ms Chaltu ",
+    "image": "img/realtor-1.jpeg",
+
+    "active": "online",
+    "house_sold": "346",
+    "location": "Jimma",
+    "phone": "+1 901 930",
+    "email": "chaltu@gmail.com"
+}, {
+    "id": 7,
+    "name": "Aster W.",
+    "image": "img/realtor-1.jpeg",
+
+    "active": "1w ago",
+    "house_sold": "346",
+    "location": "DahirDar",
+    "phone": "+1 901 930",
+    "email": "aster@gmail.com"
+}, {
+    "id": 8,
+    "name": "Addis",
+    "image": "img/realtor-1.jpeg",
+
+    "active": "1y ago",
+    "house_sold": "346",
+    "location": "Somalia",
+    "phone": "+251 901 9300",
+    "email": "addis@gmail.com"
+}, {
+    "id": 9,
+    "name": "Fenet T.",
+    "image": "img/realtor-1.jpeg",
+
+    "active": "Online",
+    "house_sold": "346",
+    "location": "Borana",
+    "phone": "+1 901 930",
+    "email": "fenet@gmail.com"
+}]

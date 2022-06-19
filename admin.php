@@ -17,9 +17,6 @@
     </head>
     <body >
     <div class="cont">
-        
-        <?php  include('templates/navbar.php');?>
-        
         <div class="cntnt">
             <?php  include('templates/sidebar.php');?>
 
@@ -37,8 +34,39 @@
                         <p class="story__text">
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur distinctio necessitatibus pariatur voluptatibus. Quidem consequatur harum volupta!
                         </p>
-                        <button class="btn">Find your own home</button>
-                    </div>     
+                        <button class="btn">Ketema Girma</button>
+                    </div>    
+                    <section class="features">
+                        <div class="section-login">
+                            <div class="row">
+                                <div class="login">
+                                    <div class="login__form">
+                                        <form action="CRUD/add.php" class="form" method="POST">
+                                           
+                                                <input type="text" class="form__input" placeholder="House title" name="title" id="title" required>
+                                                <label for="name" class="form__label">House Name</label>
+                                            
+                                                <input type="text" class="form__input" placeholder="image " name="image" id="image" required>
+                                                <label for="name" class="form__label">image</label>
+                                                <input type="text" class="form__input" placeholder="Location" name="location" id="location" required>
+                                                <label for="name" class="form__label">Location</label>
+                                            
+                                                <input type="text" class="form__input" placeholder="Rooms " name="rooms" id="rooms" required>
+                                                <label for="name" class="form__label">Rooms</label>
+                                                <input type="text" class="form__input" placeholder="Area " name="area" id="area" required>
+                                                <label for="name" class="form__label">Area</label>
+                                                <input type="text" class="form__input" placeholder="Price " name="price" id="price" required>
+                                                <label for="name" class="form__label">Price</label>
+                                           
+                                           
+                                                <input type="submit"  value="Add" name="add" class="btn btn--green">
+                                                
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section> 
                         
                     <section class="homes" id="home">
                         <?php include('CRUD/read.php'); ?>
@@ -79,6 +107,10 @@
                                     </from>
                                 </div>
                             <?php endforeach; ?>
+                    </section>
+                    
+                    <section class="gallery">
+                        
                     </section>
 
                     <footer class="footer">

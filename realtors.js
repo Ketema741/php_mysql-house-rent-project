@@ -4,29 +4,19 @@ fetch("./realtorsData.json")
     })
     .then(function(data) {
 
-            for (let i = 0; i < data.length; i++) {
+        for (let i = 0; i < data.length; i++) {
 
-                const realtor = document.getElementById("realtors").innerHTML +=
-                    `
-            <div class="realtor realtor--${i}"  >
-                <div class = "realtor__description">
-                    <span class = "realtor__name"> ${data[i].company} </span> 
-                    <span class = "realtor__IsNew" style="border:none; display:${(data[i].new)? 'inline' : 'none'} ">active </span> 
-                    <span class = "realtor_IsFeatured" style="display:${(data[i].featured)? 'inline' : 'none'} ">inactive</span> 
-                    </div>
-                    <img src="${data[i].logo}" alt="" class="realtor__image">
-                    <div class="realtor__info">
-                        <ul class="realtor__work">
-                            <li class="realtor__time">${data[i].postedAt}</li>
-                            <li class="realtor__workType">${data[i].contract}</li>
-                            <li class="realtor__workPlace">${data[i].location}</li>
-                        </ul>
-                    </div>
-                    <div class="divider"></div>
-                    <div class="realtor__experience">
-                    ${data[i].address.map(address=>`<span class="realtor__skill">${address}</span>`).join("")}
-                    </div> 
-                </div>
+            const realtor = document.getElementById("realtors").innerHTML +=
+                `
+                <div class="feature">
+                            <img class="feature__icon realX" src="img/${data[i].image}" alt="realtor image">
+                            <h4 class="realtor__name">${data[i].name}</h4>
+                            <p class="feature__text">${data[i].house_sold}</p>
+                            <p class="feature__text realtor__active">Active: ${data[i].active}</p>
+                            <p class="feature__text realtorX__text">Lives in: ${data[i].location}</p>
+                            <p class="feature__text ">${data[i].email}</p>
+                            <p class="feature__text ">${data[i].phone}</p>
+                        </div>
                 `
         }
     })

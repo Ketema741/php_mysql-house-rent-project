@@ -23,7 +23,7 @@
 </head>
 <body >
     <div class="cont">
-        <?php  include('templates/navbar.php');?>
+        
         <div class="cntnt">
             <?php  include('templates/sidebar.php');?>
             <main class="main-content">
@@ -77,7 +77,7 @@
                                     </svg>
                                     <p>$<?php echo htmlspecialchars($house['house_price']); ?></p>
                                 </div>
-                                <a class="btn home__btn" href="admin.php" style="text-decoration: none">Back</a>
+                                <a class="btn home__btn" href="home.php" style="text-decoration: none">Back</a>
                             </div>
                         <?php else: ?>
                                 <h5>No such house exists.</h5>

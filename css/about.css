@@ -1,0 +1,41 @@
+.social-link {
+    margin-top: 15px;
+    display: flex;
+}
+
+.social-link ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-link ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.social-link ul li {
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #000;
+    transition: all 0.3s;
+}
+
+.social-link .follow {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.social-link ul li a {
+    text-decoration: none;
+    font-size: 24px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.social-link ul li:hover {
+    background-color: #660250;
+}

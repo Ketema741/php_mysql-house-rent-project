@@ -1,6 +1,6 @@
 <?php 
 
-include('../config/db_connect.php');
+include('config/db_connect.php');
 
 
 if(isset($_POST['submit'])){
@@ -104,7 +104,9 @@ if(isset($_POST['submit'])){
                             </div>
 
                             <div class="form__group">
-                                <button class="btn btn--green">Signin &rarr;</button>
+                                <input type="button"  name="submit" class="btn btn--green">Signin>
+                                
+                                <!-- <button class="btn btn--green" name="submit">Signin &rarr;</button> -->
                             </div>
                         </form>
                     </div>

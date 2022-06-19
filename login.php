@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -16,7 +18,7 @@
     <body >
 
     <div class="cont">
-        <?php  include('templates/navbar.php');?>
+       
         <div class="cntnt">
             <?php  include('templates/sidebar.php');?>
             <main class="main-content">
@@ -43,40 +45,16 @@
                             <div class="row">
                                 <div class="login">
                                     <div class="login__form">
-                                        <form action="#" class="form">
-                                            <div class="u-margin-bottom-medium">
-                                                <h2 class="heading-secondary">
-                                                    Signin
-                                                </h2>
-                                            </div>
-                                            <div class="form__group">
-                                                <input type="email" class="form__input" placeholder="Email address" name="email" id="email" required>
-                                                <label for="email" class="form__label">Email address</label>
-                                            </div>
-                                            <div class="form__group">
-                                                <input type="password" class="form__input" placeholder="Password " name="Password" id="Password" required>
-                                                <label for="email" class="form__label">Password</label>
-                                            </div>
-                                            <div class="form__group u-margin-bottom-medium">
-                                                <div class="form__radio-group">
-                                                    <input type="radio" class="form__radio-input" id="small" name="size">
-                                                    <label for="small" class="form__radio-label">
-                                                            <span class="form__radio-button"></span>
-                                                            Admin
-                                                        </label>
-                                                </div>
-                                                <div class="form__radio-group">
-                                                    <input type="radio" class="form__radio-input" id="large" name="size">
-                                                    <label for="large" class="form__radio-label">
-                                                            <span class="form__radio-button"></span>
-                                                            Realtor
-                                                        </label>
-                                                </div>
-                                            </div>
-
-                                            <div class="form__group">
-                                                <button class="btn btn--green">Signin &rarr;</button>
-                                            </div>
+                                        <form action="CRUD/login.php" class="form" method="POST">
+                                           
+                                                <input type="text" class="form__input" placeholder="Your first name" name="name" id="name" required>
+                                                <label for="name" class="form__label">First Name</label>
+                                            
+                                                <input type="password" class="form__input" placeholder="Password " name="password" id="Password" required>
+                                                <label for="name" class="form__label">Password</label>
+                                           
+                                                <input type="submit"  value="Signin" name="submit" class="btn btn--green">
+                                                
                                         </form>
                                     </div>
                                 </div>

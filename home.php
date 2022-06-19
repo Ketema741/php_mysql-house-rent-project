@@ -16,7 +16,6 @@
     <body >
 
     <div class="cont">
-        <?php  include('templates/navbar.php');?>
         <div class="cntnt">
             <?php  include('templates/sidebar.php');?>
             <main class="main-content">

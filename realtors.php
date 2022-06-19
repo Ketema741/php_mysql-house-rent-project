@@ -1,26 +1,26 @@
-
-
-
 <!DOCTYPE html>
+
+
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        
-        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i|Nunito:300,300i" rel="stylesheet">
-        <link rel="stylesheet" href="css/nav.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/realtors.css">
-        <link rel="stylesheet" href="css/login.css">
-        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
-        <script src="https://unpkg.com/scrollreveal"></script>
-        <title>nexter &mdash; your home, your freedom</title>
-    </head>
-    <body >
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i|Nunito:300,300i" rel="stylesheet">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>nexter &mdash; your home, your freedom</title>
+</head>
+
+<body>
 
     <div class="cont">
-        <?php  include('templates/navbar.php');?>
+        
         <div class="cntnt">
             <?php  include('templates/sidebar.php');?>
             <main class="main-content">
@@ -31,10 +31,10 @@
                         <h1 class="heading-1">The ultimate personal freedom</h1>
                         <div class="header__seenon-text">Seen on</div>
                         <div class="header__seenon-logos">
-                            <a href="http://www.bbc.com"> <img src="img/logo-bbc.png" alt="Seen on logo 1"></a> 
-                            <a href="http://www.forbes.com"><img src="img/logo-forbes.png" alt="Seen on logo 2"></a> 
-                            <a href="http://www.tehcrunch.com"> <img src="img/logo-techcrunch.png" alt="Seen on logo 3"></a> 
-                            <a href="http://www.businessinsider.com"> <img src="img/logo-bi.png" alt="Seen on logo 4"></a> 
+                            <a href="http://www.bbc.com"> <img src="img/logo-bbc.png" alt="Seen on logo 1"></a>
+                            <a href="http://www.forbes.com"><img src="img/logo-forbes.png" alt="Seen on logo 2"></a>
+                            <a href="http://www.tehcrunch.com"> <img src="img/logo-techcrunch.png" alt="Seen on logo 3"></a>
+                            <a href="http://www.businessinsider.com"> <img src="img/logo-bi.png" alt="Seen on logo 4"></a>
                         </div>
                     </header>
 
@@ -43,14 +43,60 @@
                     </div>
 
 
-                    <section class="footer">
+                    <!-- <section class="footer">
                         <main class="realtor__container">
                             <div class="realtors" id='realtors'>
                                 <h1></h1>
                             </div>
                         </main>
                         <script type="text/javascript" src="./realtors.js"></script>
+                    </section> -->
+                   
+
+
+                    <section class="features realtorXX" id="realtors">
+                        <!-- <div class="feature">
+                            <img class="feature__icon realX" src="img/user.jpg" alt="realtor image">
+                            <h4 class="realtor__name">Jermia Tap</h4>
+                            <p class="feature__text">465 house sold</p>
+                            <p class="feature__text realtor__active">Active: Online</p>
+                            <p class="feature__text realtorX__text">Lives in: Gambela</p>
+                            <p class="feature__text ">kgirma@gmail.com</p>
+                            <p class="feature__text ">+251912323811</p>
+                        </div>
+
+                        <div class="feature">
+                            <img class="feature__icon realX" src="img/user.jpg" alt="realtor image">
+                            <h4 class=" realtor__name">Mr. Django </h4>
+                            <p class="feature__text">235 house sold</p>
+                            <p class="feature__text  realtor__active">Active: 2d ago</p>
+                            <p class="feature__text realtorX__text">Lives in: Mekele</p>
+                            <p class="feature__text ">kgirma@gmail.com</p>
+                            <p class="feature__text ">+251912323811</p>
+                        </div>
+
+                        <div class="feature">
+                            <img class="feature__icon realX" src="img/user.jpg" alt="realtor image">
+                            <h4 class="realtor__name">Betselot T.</h4>
+                            <p class="feature__text">120 house sold</p>
+                            <p class="feature__text realtor__active">Active: 1W ago</p>
+                            <p class="feature__text realtorX__text">Lives in: Addis</p>
+                            <p class="feature__text ">kgirma@gmail.com</p>
+                            <p class="feature__text ">+251912323811</p>
+                        </div>
+                        <div class="feature">
+                            <img class="feature__icon realX" src="img/user.jpg" alt="realtor image">
+                            <h4 class="realtor__name">Ketema G.</h4>
+                            <p class="feature__text ">101 house sold</p>
+                            <p class="feature__text realtor__active">Active: 2d ago</p>
+                            <p class="feature__text realtorX__text">Lives in: Adama</p>
+                            <p class="feature__text ">kgirma@gmail.com</p>
+                            <p class="feature__text ">+251912323811</p>
+                        </div> -->
+
+                       
                     </section>
+                    
 
 
                     <section class="gallery">
@@ -80,4 +126,5 @@
     <script type="text/javascript" src="realtors.js"></script>
 
 </body>
+
 </html>
