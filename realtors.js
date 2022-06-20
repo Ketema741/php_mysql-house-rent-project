@@ -9,7 +9,7 @@ fetch("./realtorsData.json")
             const realtor = document.getElementById("realtors").innerHTML +=
                 `
                 <div class="feature">
-                            <img class="feature__icon realX" src="img/${data[i].image}" alt="realtor image">
+                            <img class="feature__icon realX" src="${data[i].image}" alt="realtor image">
                             <h4 class="realtor__name">${data[i].name}</h4>
                             <p class="feature__text">${data[i].house_sold}</p>
                             <p class="feature__text realtor__active">Active: ${data[i].active}</p>

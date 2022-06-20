@@ -31,7 +31,7 @@
 				<svg>
 					<use xlink:href="img/sprite.svg#icon-key"></use>
 				</svg>
-				<p>$<?php echo htmlspecialchars($house['house_price']); ?></p>
+				<p><?php echo htmlspecialchars($house['house_price']); ?>ETB</p>
 			</div>
 			<a class="btn home__btn" href="details.php?id=<?php echo $house['id'] ?>" style="text-decoration: none">Contact realtor</a>
 		</div>

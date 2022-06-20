@@ -26,79 +26,19 @@
             <main class="main-content">
                 <div class="container">
                     <header class="header">
-                        <img src="img/logo.png" alt="Nexter logo" class="header__logo">
                         <h3 class="heading-3">Your own home:</h3>
                         <h1 class="heading-1">The ultimate personal freedom</h1>
-                        <div class="header__seenon-text">Seen on</div>
-                        <div class="header__seenon-logos">
-                            <a href="http://www.bbc.com"> <img src="img/logo-bbc.png" alt="Seen on logo 1"></a>
-                            <a href="http://www.forbes.com"><img src="img/logo-forbes.png" alt="Seen on logo 2"></a>
-                            <a href="http://www.tehcrunch.com"> <img src="img/logo-techcrunch.png" alt="Seen on logo 3"></a>
-                            <a href="http://www.businessinsider.com"> <img src="img/logo-bi.png" alt="Seen on logo 4"></a>
-                        </div>
+                        <div class="header__seenon-text">cozzy home</div>
+                        
                     </header>
 
                     <div class="realtors">
                         <?php  include('templates/realtors.php');?>
                     </div>
 
-
-                    <!-- <section class="footer">
-                        <main class="realtor__container">
-                            <div class="realtors" id='realtors'>
-                                <h1></h1>
-                            </div>
-                        </main>
-                        <script type="text/javascript" src="./realtors.js"></script>
-                    </section> -->
-                   
-
-
                     <section class="features realtorXX" id="realtors">
-                        <!-- <div class="feature">
-                            <img class="feature__icon realX" src="img/user.jpg" alt="realtor image">
-                            <h4 class="realtor__name">Jermia Tap</h4>
-                            <p class="feature__text">465 house sold</p>
-                            <p class="feature__text realtor__active">Active: Online</p>
-                            <p class="feature__text realtorX__text">Lives in: Gambela</p>
-                            <p class="feature__text ">kgirma@gmail.com</p>
-                            <p class="feature__text ">+251912323811</p>
-                        </div>
-
-                        <div class="feature">
-                            <img class="feature__icon realX" src="img/user.jpg" alt="realtor image">
-                            <h4 class=" realtor__name">Mr. Django </h4>
-                            <p class="feature__text">235 house sold</p>
-                            <p class="feature__text  realtor__active">Active: 2d ago</p>
-                            <p class="feature__text realtorX__text">Lives in: Mekele</p>
-                            <p class="feature__text ">kgirma@gmail.com</p>
-                            <p class="feature__text ">+251912323811</p>
-                        </div>
-
-                        <div class="feature">
-                            <img class="feature__icon realX" src="img/user.jpg" alt="realtor image">
-                            <h4 class="realtor__name">Betselot T.</h4>
-                            <p class="feature__text">120 house sold</p>
-                            <p class="feature__text realtor__active">Active: 1W ago</p>
-                            <p class="feature__text realtorX__text">Lives in: Addis</p>
-                            <p class="feature__text ">kgirma@gmail.com</p>
-                            <p class="feature__text ">+251912323811</p>
-                        </div>
-                        <div class="feature">
-                            <img class="feature__icon realX" src="img/user.jpg" alt="realtor image">
-                            <h4 class="realtor__name">Ketema G.</h4>
-                            <p class="feature__text ">101 house sold</p>
-                            <p class="feature__text realtor__active">Active: 2d ago</p>
-                            <p class="feature__text realtorX__text">Lives in: Adama</p>
-                            <p class="feature__text ">kgirma@gmail.com</p>
-                            <p class="feature__text ">+251912323811</p>
-                        </div> -->
-
-                       
                     </section>
                     
-
-
                     <section class="gallery">
                         <figure class="gallery__item gallery__item--1 myimg"><img src="img/gal-1.jpeg" alt="Gallery image 1" class="gallery__img"></figure>
                         <figure class="gallery__item gallery__item--2"><img src="img/gal-2.jpeg" alt="Gallery image 2" class="gallery__img"></figure>

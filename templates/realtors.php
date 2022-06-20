@@ -6,7 +6,7 @@
         <p class="realtors__sold">345 houses sold</p>
     </div>
 
-    <img src="img/realtor-2.jpeg" alt="Realtor 2" class="realtors__img">
+    <img src="img/realtor-2.jpg" alt="Realtor 2" class="realtors__img">
     <div class="realtors__details">
         <h4 class="heading-4 heading-4--light">Betselot T.</h4>
         <p class="realtors__sold">212 houses sold</p>

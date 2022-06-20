@@ -24,7 +24,7 @@
                 <div class="container">
 
                     <div class="story__pictures">
-                        <img src="img/user.jpg" alt="Couple with new house" class="story__img--2" style="height:350px">
+                        <img src="img/realtor-3.jpeg" alt="Couple with new house" class="story__img--2" style="height:350px">
                         <img src="img/story-2.jpeg" alt="New house" class="story__img--1">
                     </div>
 
@@ -109,13 +109,13 @@
                             <?php endforeach; ?>
                     </section>
                     
-                    <section class="gallery">
+                    <!-- <section class="gallery">
                         
-                    </section>
+                    </section> -->
 
-                    <footer class="footer">
-                    <?php include('templates/footer.php'); ?>
-                    </footer>
+                    <!-- <footer class="footer">
+                     <?php include('templates/footer.php'); ?> 
+                     </footer> --> 
                 </div>
             </main>
         </div>

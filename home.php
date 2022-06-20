@@ -21,16 +21,10 @@
             <main class="main-content">
                 <div class="container">
                     <header class="header">
-                        <img src="img/logo.png" alt="Nexter logo" class="header__logo">
                         <h3 class="heading-3">Your own home:</h3>
                         <h1 class="heading-1">The ultimate personal freedom</h1>
-                        <div class="header__seenon-text">Seen on</div>
-                        <div class="header__seenon-logos">
-                            <a href="http://www.bbc.com"> <img src="img/logo-bbc.png" alt="Seen on logo 1"></a> 
-                            <a href="http://www.forbes.com"><img src="img/logo-forbes.png" alt="Seen on logo 2"></a> 
-                            <a href="http://www.tehcrunch.com"> <img src="img/logo-techcrunch.png" alt="Seen on logo 3"></a> 
-                            <a href="http://www.businessinsider.com"> <img src="img/logo-bi.png" alt="Seen on logo 4"></a> 
-                        </div>
+                        <div class="header__seenon-text">cozzy home</div>
+                        
                     </header>
 
                     <div class="realtors">

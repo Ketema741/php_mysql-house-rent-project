@@ -1,92 +1,92 @@
 [{
     "id": 1,
-    "name": "Germia Tap",
+    "name": "Germia",
     "image": "img/realtor-1.jpeg",
 
     "active": "Online",
-    "house_sold": "346",
+    "house_sold": "346 house sold",
     "location": "Gambela",
     "email": "germia@gmail.com",
-    "phone": "+1 901 930"
+    "phone": "+19 01930"
 }, {
     "id": 2,
-    "name": "Betselot T.",
-    "image": "img/realtor-1.jpeg",
+    "name": "Betselot",
+    "image": "img/realtor-2.jpg",
 
     "active": "1d ago",
-    "house_sold": "346",
+    "house_sold": "346  house sold",
     "location": "Addis",
     "email": "betsi@gmail.com",
-    "phone": "+1 901 930"
+    "phone": "+19 01930"
 }, {
     "id": 3,
     "name": "Tola G.",
-    "image": "img/realtor-1.jpeg",
+    "image": "img/realtor-3.jpeg",
 
     "active": "2w ago",
-    "house_sold": "346",
+    "house_sold": "232  house sold",
     "location": "Bishoftu",
     "email": "tola@gmail.com",
-    "phone": "+1 901 930"
+    "phone": "+19 01930"
 }, {
     "id": 4,
-    "name": "Hagos J.",
-    "image": "img/realtor-1.jpeg",
+    "name": "Chaltu",
+    "image": "img/realtor-4.jpeg",
 
     "active": "Online",
-    "house_sold": "346",
+    "house_sold": "120  house sold",
     "location": "Mekele",
-    "phone": "+1 901 930",
+    "phone": "+19 01 930",
     "email": "hagos@gmail.com"
 
 }, {
     "id": 5,
-    "name": "Anberbir B.",
-    "image": "img/realtor-1.jpeg",
+    "name": "Alem",
+    "image": "img/realtor-5.jpeg",
 
     "active": "3M ago",
-    "house_sold": "346",
+    "house_sold": "98  house sold",
     "location": "Gonder",
-    "phone": "+1 901 930",
+    "phone": "+19 01930",
     "email": "anberbir@gmail.com"
 }, {
     "id": 6,
-    "name": "Ms Chaltu ",
-    "image": "img/realtor-1.jpeg",
+    "name": "Mekdes ",
+    "image": "img/realtor-6.jpg",
 
     "active": "online",
-    "house_sold": "346",
+    "house_sold": "87 house sold",
     "location": "Jimma",
-    "phone": "+1 901 930",
+    "phone": "+19 01930",
     "email": "chaltu@gmail.com"
 }, {
     "id": 7,
-    "name": "Aster W.",
-    "image": "img/realtor-1.jpeg",
+    "name": "Hagos",
+    "image": "img/realtor-7.jpeg",
 
     "active": "1w ago",
-    "house_sold": "346",
-    "location": "DahirDar",
-    "phone": "+1 901 930",
+    "house_sold": "54  house sold",
+    "location": "BahirDar",
+    "phone": "+19 01930",
     "email": "aster@gmail.com"
 }, {
     "id": 8,
-    "name": "Addis",
-    "image": "img/realtor-1.jpeg",
+    "name": "Abebech",
+    "image": "img/realtor-8.jpg",
 
     "active": "1y ago",
-    "house_sold": "346",
+    "house_sold": "43  house sold",
     "location": "Somalia",
-    "phone": "+251 901 9300",
+    "phone": "+2519019300",
     "email": "addis@gmail.com"
 }, {
     "id": 9,
-    "name": "Fenet T.",
-    "image": "img/realtor-1.jpeg",
+    "name": "Abdu",
+    "image": "img/realtor-9.jpg",
 
     "active": "Online",
-    "house_sold": "346",
+    "house_sold": "20  house sold",
     "location": "Borana",
-    "phone": "+1 901 930",
+    "phone": "+19 01930",
     "email": "fenet@gmail.com"
 }]

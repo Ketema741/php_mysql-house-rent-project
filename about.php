@@ -25,16 +25,10 @@
             <main class="main-content">
                 <div class="container">
                     <header class="header">
-                        <img src="img/logo.png" alt="Nexter logo" class="header__logo">
                         <h3 class="heading-3">Your own home:</h3>
                         <h1 class="heading-1">The ultimate personal freedom</h1>
-                        <div class="header__seenon-text">Seen on</div>
-                        <div class="header__seenon-logos">
-                            <a href="http://www.bbc.com"> <img src="img/logo-bbc.png" alt="Seen on logo 1"></a> 
-                            <a href="http://www.forbes.com"><img src="img/logo-forbes.png" alt="Seen on logo 2"></a> 
-                            <a href="http://www.tehcrunch.com"> <img src="img/logo-techcrunch.png" alt="Seen on logo 3"></a> 
-                            <a href="http://www.businessinsider.com"> <img src="img/logo-bi.png" alt="Seen on logo 4"></a> 
-                        </div>
+                        <div class="header__seenon-text">cozzy home</div>
+                        
                     </header>
 
                     <div class="realtors">
@@ -59,7 +53,7 @@
                             Nexter is a premier online resource for finding homes for sale and rentals in the Ethiopia States. With hundreds of real estate listings, including home foreclosures and rent to own homes, Nexter will bring the real estate market to your fingertips.
                             Nexter is recognized by Housing Wire  agents as one of the trusted real estate sites for streamlined home searches. Nexter's real estate portal includes hundreds of listings to help buyers, sellers, renters, and landlords reach their real estate goals. We connect you with the right agent to fit your individual needs.
                         </p>
-                        <button class="btn"><a href="home.php">Explore Now</a></button>
+                        <button class="btn"><a href="home.php" class="nav__link">Explore Now</a></button>
                        
                     </div>   
                     

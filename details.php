@@ -29,12 +29,12 @@
             <main class="main-content">
                 <div class="container">
                 <div class="story__pictures">
-                        <img src="img/user.jpg" alt="Couple with new house" class="story__img--2" style="height:350px">
+                        <img src="img/realtor-3.jpeg" alt="Couple with new house" class="story__img--2" style="height:350px">
                         <img src="img/story-2.jpeg" alt="New house" class="story__img--1">
                     </div>
 
                     <div class="story__content">
-                        <h3 class="heading-3 mb-sm"> Jonas </h3>
+                        <h3 class="heading-3 mb-sm"> Ketema </h3>
                         <h2 class="heading-2 heading-2--dark mb-md">&ldquo;Top Realtor&rdquo;</h2>
                         <p class="story__text">
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur distinctio necessitatibus pariatur voluptatibus. Quidem consequatur harum volupta!
@@ -82,6 +82,23 @@
                         <?php else: ?>
                                 <h5>No such house exists.</h5>
                         <?php endif ?>
+                    </section>
+
+                    <section class="gallery">
+                        <figure class="gallery__item gallery__item--2"><img src="img/gal-2.jpeg" alt="Gallery image 2" class="gallery__img"></figure>
+                        <figure class="gallery__item gallery__item--3"><img src="img/gal-3.jpeg" alt="Gallery image 3" class="gallery__img"></figure>
+                        <figure class="gallery__item gallery__item--5"><img src="img/gal-5.jpeg" alt="Gallery image 5" class="gallery__img"></figure>
+                        <figure class="gallery__item gallery__item--6"><img src="img/gal-6.jpeg" alt="Gallery image 6" class="gallery__img"></figure>
+                        <figure class="gallery__item gallery__item--7"><img src="img/gal-7.jpeg" alt="Gallery image 7" class="gallery__img"></figure>
+                        <figure class="gallery__item gallery__item--8"><img src="img/gal-8.jpeg" alt="Gallery image 8" class="gallery__img"></figure>
+                        <figure class="gallery__item gallery__item--9"><img src="img/gal-9.jpeg" alt="Gallery image 9" class="gallery__img"></figure>
+                        <figure class="gallery__item gallery__item--10"><img src="img/gal-15.jpeg" alt="Gallery image 15" class="gallery__img"></figure>
+                        <figure class="gallery__item gallery__item--11"><img src="img/gal-11.jpeg" alt="Gallery image 11" class="gallery__img"></figure>
+                        <figure class="gallery__item gallery__item--13"><img src="img/gal-13.jpeg" alt="Gallery image 13" class="gallery__img"></figure>
+                        <figure class="gallery__item gallery__item--14"><img src="img/gal-16.jpeg" alt="Gallery image 16" class="gallery__img"></figure>
+                        <figure class="gallery__item gallery__item--12"><img src="img/gal-21.jpg" alt="Gallery image 21" class="gallery__img"></figure>
+                        <figure class="gallery__item gallery__item--1 myimg"><img src="img/gal-20.jpg" alt="Gallery image 20" class="gallery__img"></figure>
+                        <figure class="gallery__item gallery__item--4"><img src="img/gal-21.jpg" alt="Gallery image 21" class="gallery__img"></figure>
                     </section>
                     <footer class="footer">
                         <?php include('templates/footer.php') ?>

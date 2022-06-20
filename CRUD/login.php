@@ -19,8 +19,7 @@ if(isset($_POST['submit'])){
             echo "Logged in!";
             header("Location: ../admin.php");
             exit();
-        }
-        
+        }   
     }
     else{
             
