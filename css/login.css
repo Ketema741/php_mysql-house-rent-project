@@ -327,3 +327,69 @@
         width: 100%
     }
 }
+
+.container {
+    display: grid;
+    grid-template-rows: 45vh repeat(2, min-content);
+    grid-template-columns: [sidebar-start] 10rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
+    grid-row-gap: 8rem;
+}
+
+
+/* @media only screen and (max-width: 62.5em) {
+        .container {
+            grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
+            grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
+        }
+    }
+    
+    @media only screen and (max-width: 50em) {
+        .container {
+            grid-template-rows: 6rem calc(100vh - 6rem);
+        }
+    } */
+
+.header {
+    background-color: #54483A;
+    grid-column: full-start / full-end;
+    grid-row: 1 / 2;
+    background-image: linear-gradient(rgba(16, 29, 44, 0.93), rgba(16, 29, 44, 0.93)), url(../img/hero.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding: 8rem;
+    padding-top: 4rem;
+    display: grid;
+    grid-template-rows: 1fr min-content minmax(6rem, min-content) 1fr;
+    grid-template-columns: minmax(min-content, max-content);
+    grid-row-gap: 1.5rem;
+    justify-content: center;
+    /* background: */
+}
+
+.sdbar {
+    background-color: rgba(16, 29, 44, 0.93);
+    grid-row: 1 / -1;
+    grid-column: sidebar-start / sidebar-end;
+}
+
+.login__section {
+    grid-column: center-start / center-end;
+}
+
+@media only screen and (max-width: 50em) {
+    .header {
+        grid-column: full-start / -1;
+    }
+}
+
+@media only screen and (max-width: 37.5em) {
+    .header {
+        padding: 5rem;
+    }
+}
+
+.footer {
+    background-color: #101d2c;
+    grid-column: full-start / full-end;
+    padding: 8rem;
+}
